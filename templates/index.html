@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop - Inscrição</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .workshop-info, .registration-form {
+            margin-bottom: 20px;
+        }
+        .workshop-info h2, .registration-form h2 {
+            color: #444;
+            margin-bottom: 10px;
+        }
+        .workshop-info p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .registration-form {
+            padding: 20px;
+            border-top: 1px solid #ddd;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .form-group button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .form-group button:hover {
+            background-color: #218838;
+        }
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Workshop sobre Desenvolvimento Web</h1>
+
+        <div class="image-container">
+            <img src="https://www.mazag.com.br/wp-content/uploads/2015/01/paralax-home.jpg" alt="Imagem do Workshop">
+        </div>
+
+        <div class="workshop-info">
+            <h2>Informações do Workshop</h2>
+            <p><strong>Título:</strong> Introdução ao Desenvolvimento Web</p>
+            <p><strong>Descrição:</strong> Neste workshop, você aprenderá os fundamentos do desenvolvimento web, incluindo HTML, CSS e JavaScript. Ideal para iniciantes e para quem deseja revisar conceitos básicos.</p>
+            <p><strong>Data:</strong> 15 de agosto de 2024</p>
+            <p><strong>Hora:</strong> 10:00 - 16:00</p>
+        </div>
+
+        <div class="registration-form">
+            <h2>Formulário de Inscrição</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Inscrever-se</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
